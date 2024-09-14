@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absent Students Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="img/Roronoa Zoro_One Piece.jpeg">
+
+    <div class="container">
+        <h2>Absent Students Tracker</h2>
+
+        <!-- Select Subject Dropdown -->
+        <label for="selectSubject">Select a Subject:</label>
+        <select id="selectSubject" onchange="displayAttendanceSection()">
+            <option value="">Select Subject</option>
+            <option value="Subject_1">Subject_1</option>
+            <option value="Subject_2">Subject_2</option>
+            <option value="Subject_3">Subject_3</option>
+            <option value="Subject_4">Subject_4</option>
+            <!-- Add more subjects as needed -->
+        </select>
+        <!-- Attendance Sections -->
+        <div id="attendanceSections">
+            <!-- Sections will be dynamically added here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
